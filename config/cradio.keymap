@@ -8,6 +8,7 @@
 #define KOLME 2
 #define NELJA 3
 #define VIISI 4
+#define KUUSI 5
 
 #define U_MOUSE_MOVE_MAX 1400                     /* <--- New max speed setting (default: 600) */
 #undef MOVE_UP

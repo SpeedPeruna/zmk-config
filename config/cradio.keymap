@@ -46,14 +46,14 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ ESC      │  1       │  2       │  3       │          │   │  :       │ HOME     │ PAGE DN  │ PAGE UP  │ END      │
-            &kp ESC    &kp N1     &kp N2     &kp N3     &none         &kp COLON  &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    
+        //│ ESC      │  1       │  2       │  3       │          │   │  :       │ HOME     │ UP       │ PAGE UP  │ END      │
+            &kp ESC    &kp N1     &kp N2     &kp N3     &none         &kp COLON  &kp HOME   &kp UARW   &kp PG_UP  &kp END    
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ TAB      │  4       │  5       │  6       │          │   │  ;       │ LEFT     │ DOWN     │ UP       │ RIGHT    │
-            &kp TAB    &kp N4     &kp N5     &kp N6     &none         &kp SEMI   &kp LARW   &kp DARW   &kp UARW   &kp RARW   
+        //│ TAB      │  4       │  5       │  6       │          │   │  ;       │ LEFT     │ DOWN     │ RIGHT    │          │
+            &kp TAB    &kp N4     &kp N5     &kp N6     &none         &kp SEMI   &kp LARW   &kp DARW   &kp RARW   &none   
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ WIN      │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-           &kp LGUI   &kp N7     &kp N8     &kp N9     &kp N0        &none       &kp ENTER   &kp DEL     &none     &to KOLME      
+        //│ WIN      │  7       │  8       │  9       │  0       │   │          │ ENTER    │ DEL      │ WIN      │          │
+           &kp LGUI   &kp N7     &kp N8     &kp N9     &kp N0        &none       &kp ENTER   &kp DEL   &kp LGUI   &to KOLME      
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans      &to YKSI      &to NELJA &trans     
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -98,10 +98,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp TAB    &kp Q      &kp W      &kp E      &kp R          &none      &none      &none      &none      &none                                                                
+           &kp TAB    &kp Q      &kp W      &kp E      &kp R          &kp T      &kp Y      &kp U      &kp I      &kp O                                                                
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LSHIFT  &kp S      &kp A      &kp D      &kp F          &none      &none      &none      &none      &none
+           &kp LSHIFT  &kp S      &kp A      &kp D      &kp F          &kp G      &kp H      &kp J      &kp K      &kp L
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp LCTRL  &kp Z      &kp X      &kp V      &kp M          &none      &none      &none      &none      &to YKSI

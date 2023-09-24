@@ -24,7 +24,7 @@
         //│  -       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ' "      |
             &kp MINUS   &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SQT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                         &mt LALT SPACE &sk LHIFT &mt LCTRL BSPC &to KAKSI
+                                         &mt LALT SPACE &sk LSHIFT &mt LCTRL BSPC &to 1
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };

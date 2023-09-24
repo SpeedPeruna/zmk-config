@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/mouse.h>
 
 #define YKSI 0
 #define KAKSI 1
@@ -75,7 +76,24 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp LCTRL  &kp Z      &kp X      &kp V      &kp M          &none      &none      &none      &none      &to 0
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp C      &kp SPACE      &none      &to 1
+                                            &kp C      &kp SPACE      &none      &to 4
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+            >;
+        };
+
+        mouse_layer {
+            bindings = <
+        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│          │          │          │          │          │   │          │          │          │          │          │
+         &none &mwh SCROLL_DOWN &mmv MOVE_UP &mwh SCROLL_UP &none     &none      &none      &none      &none      &none                                                                                                         
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │          │          │          │          │   │          │          │          │          │          │
+         &none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none    &none      &none      &none      &none      &none       
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │          │          │          │          │   │          │          │          │          │          │
+         &mwh SCROLL_UP &mwh SCROLL_DOWN &mkp RCLK &mkp LCLK &none    &none      &none      &none      &none      &none        
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                            &to YKSI   &trans         &trans     &to KAKSI      
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };

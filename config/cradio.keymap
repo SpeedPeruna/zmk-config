@@ -9,7 +9,6 @@
 #define KOLME 2
 #define NELJA 3
 #define VIISI 4
-#define KUUSI 5
 
 #define U_MOUSE_MOVE_MAX 2000                     /* <--- New max speed setting (default: 600) */
 #undef MOVE_UP
@@ -117,7 +116,7 @@
            &kp TAB    &kp Q      &kp W      &kp E      &kp R          &kp T      &kp Y      &kp U      &kp I      &kp O                                                                
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LSHIFT  &kp S      &kp A      &kp D      &kp F          &kp G      &kp H      &kp J      &kp K      &kp L
+           &kp LSHIFT  &kp A      &kp S      &kp D      &kp F          &kp G      &kp H      &kp J      &kp K      &kp L
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp LCTRL  &kp Z      &kp X      &kp V      &kp M          &none      &none      &none      &none      &to YKSI

@@ -25,7 +25,7 @@
         //│  / ?     │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ' "      |
             &kp SLASH   &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SQT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                         &mt LCTRL SPACE &sk LSHIFT &mt LALT BSPC &to KAKSI
+                                            &sk LSHIFT &mt LALT BSPC &to KAKSI  &mt LCTRL SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -42,7 +42,7 @@
         //│ WIN      │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
            &kp LGUI   &kp N7     &kp N8     &kp N9     &kp N0        &none       &kp ENTER   &kp DEL     &none     &to KOLME      
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &to YKSI      &trans        &trans     &to NELJA
+                                            &trans      &to YKSI      &to NELJA &trans     
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -59,7 +59,7 @@
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
            &none      &none      &none      &none      &none          &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &to NELJA      
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &to YKSI      &trans         &trans  &to KAKSI
+                                             &trans      &to YKSI      &to KAKSI &trans    
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -76,7 +76,7 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
          &mwh SCROLL_UP &mwh SCROLL_DOWN &mkp RCLK &mkp LCLK &none    &none      &none      &none      &none      &to VIISI        
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &to YKSI   &trans         &trans     &to KAKSI      
+                                            &trans      &to YKSI      &to KAKSI &trans      
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -93,7 +93,7 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp LCTRL  &kp Z      &kp X      &kp V      &kp M          &none      &none      &none      &none      &to YKSI
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp C      &kp SPACE      &none      &to KAKSI
+                                            &kp SPACE  &kp C          &to KAKSI  &none      
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };

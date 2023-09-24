@@ -8,6 +8,8 @@
 #define NELJA 3
 #define VIISI 4
 
+
+/ {
         keymap {
         compatible = "zmk,keymap";
         default_layer {

@@ -22,8 +22,8 @@
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ; :      │
               &kp A     &kp S      &kp D      &kp F      &kp G          &kp H      &kp J     &kp K      &kp L     &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  -       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ' "      |
-            &kp MINUS   &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SQT
+        //│  / ?     │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ' "      |
+            &kp SLASH   &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SQT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                          &mt LCTRL SPACE &sk LSHIFT &mt LALT BSPC &to KAKSI
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

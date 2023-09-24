@@ -81,13 +81,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-         &none &mwh SCROLL_DOWN &mmv MOVE_UP &mwh SCROLL_UP &none     &none      &none      &none      &none      &none                                                                                                         
+         &none &mwh SCROLL_DOWN &mmv MOVE_UP &mwh SCROLL_UP &none     &none      &bt BT_CLR &out OUT_USB    &none      &none                                                                                                         
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-         &none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none    &none      &none      &none      &none      &none       
+         &none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none    &none      &bt BT_NXT &out OUT_USB    &none      &none       
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-         &mwh SCROLL_LEFT &mwh SCROLL_RIGHT &mkp RCLK &mkp LCLK &none    &none      &none      &none      &none      &to VIISI        
+         &mwh SCROLL_LEFT &mwh SCROLL_RIGHT &mkp RCLK &mkp LCLK &none    &none   &bt BT_PRV      &none      &none   &to VIISI        
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans      &to YKSI      &to KAKSI &trans      
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

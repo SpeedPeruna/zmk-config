@@ -97,7 +97,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-         &none &mwh SCROLL_DOWN &mmv MOVE_UP &mwh SCROLL_UP &none     &bt BT_CLR &bt BT_PRV &bt BT_NXT &out OUT_USB &out_BLE                                                                                                          
+         &none &mwh SCROLL_DOWN &mmv MOVE_UP &mwh SCROLL_UP &none     &bt BT_CLR &bt BT_PRV &bt BT_NXT &out OUT_USB &out OUT_BLE                                                                                                          
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
          &none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none    &none      &mkp LCLK    &mkp RCLK        

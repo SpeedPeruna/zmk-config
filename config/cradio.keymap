@@ -11,7 +11,7 @@
 #define VIISI 4
 #define KUUSI 5
 
-#define U_MOUSE_MOVE_MAX 1400                     /* <--- New max speed setting (default: 600) */
+#define U_MOUSE_MOVE_MAX 2000                     /* <--- New max speed setting (default: 600) */
 #undef MOVE_UP
 #undef MOVE_DOWN
 #undef MOVE_LEFT
@@ -40,7 +40,7 @@
         //│  / ?     │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ' "      |
             &kp SLASH   &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SQT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &sk LSHIFT &mt LALT BSPC &to KAKSI  &mt LCTRL SPACE
+                                            &mt LALT BSPC &sk LSHIFT &to KAKSI  &mt LCTRL SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -52,7 +52,7 @@
             &kp ESC    &kp N1     &kp N2     &kp N3     &none         &kp COLON  &kp HOME   &kp UARW   &kp PG_UP  &kp END    
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ TAB      │  4       │  5       │  6       │          │   │  ;       │ LEFT     │ DOWN     │ RIGHT    │          │
-            &kp TAB    &kp N4     &kp N5     &kp N6     &none         &kp SEMI   &kp LARW   &kp DARW   &kp RARW   &none   
+            &kp TAB    &kp N4     &kp N5     &kp N6    &kp SHIFT         &kp SEMI   &kp LARW   &kp DARW   &kp RARW   &none   
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ WIN      │  7       │  8       │  9       │  0       │   │          │ ENTER    │ DEL      │ WIN      │          │
            &kp LGUI   &kp N7     &kp N8     &kp N9     &kp N0        &none       &kp ENTER   &kp DEL   &kp LGUI   &to KOLME      

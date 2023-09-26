@@ -10,7 +10,7 @@
 #define NELJA 3
 #define VIISI 4
 
-#define U_MOUSE_MOVE_MAX 2000                     /* <--- New max speed setting (default: 600) */
+#define U_MOUSE_MOVE_MAX 3000                     /* <--- New max speed setting (default: 600) */
 #undef MOVE_UP
 #undef MOVE_DOWN
 #undef MOVE_LEFT
@@ -23,7 +23,7 @@
 
 
 &mmv {
-	time-to-max-speed-ms = <400>;             /* <--- How long time until max speed is reached (default: 500) */
+	time-to-max-speed-ms = <800>;             /* <--- How long time until max speed is reached (default: 500) */
 };
 
 / {
@@ -62,7 +62,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ ESC      │  1       │  2       │  3       │          │   │  :       │ HOME     │ UP       │ PAGE UP  │ END      │
-            &kp ESC    &kp N1     &kp N2     &kp N3     &none         &kp COLON  &kp HOME   &kp UARW   &kp PG_UP  &kp END    
+            &kp ESC    &kp N1     &kp N2     &kp N3     &none         &kp COLON      &kp HOME   &kp UARW   &kp PG_UP  &kp END    
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ TAB      │  4       │  5       │  6       │          │   │  ;       │ LEFT     │ DOWN     │ RIGHT    │          │
             &kp TAB    &kp N4     &kp N5     &kp N6    &kp LSHIFT         &kp SEMI   &kp LARW   &kp DARW   &kp RARW   &none   

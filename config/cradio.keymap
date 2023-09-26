@@ -119,7 +119,7 @@
            &kp LSHIFT  &kp A      &kp S      &kp D      &mt G F       &kp H      &kp J      &kp K      &kp L      &kp MINUS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LCTRL  &kp Z      &kp X      &kp V      &mt B N        &kp M      &COMMA      &DOT      &none      &to YKSI
+           &kp LCTRL  &kp Z      &kp X      &kp V      &mt B N        &kp M      &kp COMMA   &kp DOT      &none      &to YKSI
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &kp SPACE  &kp C          &to KAKSI  &kp SPACE      
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

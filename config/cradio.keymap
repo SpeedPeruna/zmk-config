@@ -48,6 +48,18 @@
     global-quick-tap;
     bindings = <&kp>, <&kp>;
 };
+
+gqw: global-quick-windows {
+    compatible = "zmk,behavior-hold-tap";
+    label = "GLOBAL_QUICK_TAP";
+    #binding-cells = <2>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <300>;
+    global-quick-tap;
+    bindings = <&kp>, <&to>;
+};
+
     };
 
         keymap {
@@ -64,7 +76,7 @@
         //│  / ?     │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ' "      |
             &kp SLASH   &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SQT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &gqt LALT BSPC &skq LSHIFT &to KAKSI  &gqt LCTRL SPACE
+                                         &gqt LALT BSPC &skq LSHIFT &gqw LGUI KAKSI  &gqt LCTRL SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };

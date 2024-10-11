@@ -4,6 +4,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <behaviors/mouse_keys.dtsi>
 
 / {
     behaviors {
@@ -46,6 +47,22 @@
             >;
         };
 
+        one {
+            bindings = <
+        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│          │          │          │          │          │   │          │          │          │          │          │
+           &none      &none      &none      &none      &none          &none &msc SCROLL_UP &mmv MOVE_UP  &msc SCROLL_DOWN &none
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │          │          │          │          │   │          │          │          │          │          │
+           &mkp MB3   &none      &mkp MB2   &mkp MB1   &none &msc SCROLL_LEFT &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCROLL_RIGHT
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │          │          │          │          │   │          │          │          │          │          │
+           &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                            &trans     &trans         &trans     &trans
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+            >;
+        };
 
         two {
             bindings = <
@@ -54,7 +71,7 @@
            &kp ESC    &none      &none      &none      &none        &kp K_VOL_UP &kp PG_UP  &kp UP     &kp PG_DN  &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp TAB    &kp BSPC   &none      &kp RET    &none        &kp K_VOL_DN &kp LEFT   &kp DOWN   &RIGHT     &none
+           &kp TAB    &kp BSPC   &none      &kp RET    &none        &kp K_VOL_DN &kp LEFT   &kp DOWN   &kp RIGHT     &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &none      &none      &none      &none      &none          &none      &none      &none      &none      &kp C_PWR

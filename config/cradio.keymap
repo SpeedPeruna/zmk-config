@@ -58,7 +58,7 @@
            &mkp MB3   &none      &mkp MB2   &mkp MB1   &none &msc SCRL_LEFT &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_RIGHT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
+           &none      &none      &none      &none      &none          &none      &none      &none      &none      &to 7
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -140,7 +140,7 @@
            &kp HASH   &kp DQT    &none      &kp PIPE   &none          &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp PRCNT  &kp AT     &COLON     &kp TILDE2 &kp CARET      &none      &none      &none      &none      &none
+           &kp PRCNT  &kp AT     &kp COLON  &kp TILDE2 &kp CARET      &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp DLLR   &kp AMPS   &kp Z      &kp BSLH   &none          &none      &none      &none      &none      &none
@@ -154,15 +154,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
+           &kp TAB    &kp Q      &kp W      &kp E      &kp R          &kp T      &kp Y      &kp UP     &kp U      &kp ESC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
+           &kp LSHFT  &kp A      &kp S      &kp D      &kp F          &kp G      &kp LEFT   &kp DN     &kp RIGHT  &kp ENTER 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
+           &kp LCTRL  &kp Z      &lt 3 X    &kp V      &kp B          &kp N      &kp M      &lt 4 O    &kp P      &to 0
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &trans     &trans         &trans     &trans
+                                            &kp C      &kp SPACE      &kp H      &kp J
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };

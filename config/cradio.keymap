@@ -157,7 +157,7 @@
            &kp TAB    &kp Q      &kp W      &kp E      &kp R          &kp T      &kp Y      &kp UP     &kp U      &kp ESC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LSHFT  &kp A      &kp S      &kp D      &kp F          &kp G      &kp LEFT   &kp DN     &kp RIGHT  &kp ENTER 
+           &kp LSHFT  &kp A      &kp S      &kp D      &kp F          &kp G      &kp LEFT   &kp DOWN     &kp RIGHT  &kp RET 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp LCTRL  &kp Z      &lt 3 X    &kp V      &kp B          &kp N      &kp M      &lt 4 O    &kp P      &to 0

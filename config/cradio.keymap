@@ -134,13 +134,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp EXCL   &kp MINUS  &kp EQUAL  &kp LT     &kp GT         &none      &none      &none      &none      &none
+           &kp MINUS  &kp EQUAL  &kp EXCL   &kp LT     &kp GT         &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp QMARK  &kp LPAR   &kp RPAR   &kp KP_MINUS &kp KP_PLUS  &none      &none      &none      &none      &none
+           &kp LPAR   &kp RPAR   &kp QMARK  &kp KP_MINUS &kp KP_PLUS  &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp KP_EQUAL &kp LBRC &kp RBRC   &kp KP_SLASH &kp KP_MULTIPLY &none      &none      &none      &none      &none
+           &kp LBRC &kp RBRC &kp KP_EQUAL &kp KP_SLASH &kp KP_MULTIPLY &none      &none      &none      &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

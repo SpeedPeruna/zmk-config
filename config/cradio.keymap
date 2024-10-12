@@ -137,13 +137,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
+           &kp HASH   &kp DQT    &none      &kp PIPE   &none          &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
+           &kp PRCNT  &kp AT     &COLON     &kp TILDE2 &kp CARET      &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
+           &kp DLLR   &kp AMPS   &kp Z      &kp BSLH   &none          &none      &none      &none      &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

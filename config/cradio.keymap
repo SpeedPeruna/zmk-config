@@ -7,7 +7,7 @@
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 
-#define U_MOUSE_MOVE_MAX 1400                     /* <--- New max speed setting (default: 600) */
+#define U_MOUSE_MOVE_MAX 2400                     /* <--- New max speed setting (default: 600) */
 #undef MOVE_UP
 #undef MOVE_DOWN
 #undef MOVE_LEFT

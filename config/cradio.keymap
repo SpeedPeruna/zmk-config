@@ -178,7 +178,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp HASH   &kp LS(N2) &emdash    &none      &none          &none      &none      &none      &none      &none
+           &kp HASH   &kp LS(N2) &none    &none      &none          &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp PRCNT  &kp RA(N2) &kp LS(DOT)  &kp RA(RBKT) &kp LS(RBKT) &none      &none      &none      &none      &none

@@ -7,6 +7,10 @@
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 
+#define HOST_OS 1
+#include "zmk-helpers/helper.h"
+#include "zmk-helpers/unicode-chars/german.dtsi"
+
 #define U_MOUSE_MOVE_MAX 1400                     /* <--- New max speed setting (default: 600) */
 #undef MOVE_UP
 #undef MOVE_DOWN
@@ -50,6 +54,11 @@
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
         };
+
+        //                name     unshifted         shifted
+ZMK_UNICODE_PAIR( de_ae,   N0, N0,  E, N4,   N0, N0,  C, N4 )
+ZMK_UNICODE_PAIR( de_oe,   N0, N0,  F, N6,   N0, N0,  D, N6 )
+ZMK_UNICODE_PAIR( de_ue,   N0, N0,  F,  C,   N0, N0,  D,  C )
     };
 
     keymap {
@@ -58,7 +67,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  '       │  ,       │  .       │  P       │  Y       │   │  F       │  G       │  C       │  R       │  L       │
-            &kp SQT   &kp COMMA  &kp DOT    &kp P      &kp Y          &kp F      &kp G      &kp C      &kp R      &kp L
+      &kp BACKSLASH   &kp COMMA  &kp DOT    &kp P      &kp Y          &kp F      &kp G      &kp C      &kp R      &kp L
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  O       │  E       │  U       │  I       │   │  D       │  H       │  T       │  N       │  S       │
            &kp A      &hm 2 O    &hm 3 E    &hm 4 U    &kp I          &kp D      &hm 7 H    &hm 6 T      &hm 5 N  &kp S
@@ -78,11 +87,11 @@
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ; :      │
-           &kp A      &hm 2 S    &hm 3 D    &hm 4 F    &kp G          &kp H      &hm 7 J    &hm 6 K      &hm 5 L  &kp SEMI
+        //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │  ä       │
+           &kp A      &hm 2 S    &hm 3 D    &hm 4 F    &kp G          &kp H      &hm 7 J    &hm 6 K      &hm 5 L  &kp de_oe
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ' "      │
-            &kp SLASH &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SQT
+        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │  ö       │
+            &kp SLASH &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp de_ae
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                      &mt LALT BSPC &sk LSHIFT  &kp LGUI   &mt LCTRL SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

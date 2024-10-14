@@ -64,8 +64,7 @@
                 , <&macro_release &kp LCTRL>
                 ;
         };
-    };
-};
+    }:        
 
     keymap {
         compatible = "zmk,keymap";

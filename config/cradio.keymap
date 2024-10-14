@@ -52,7 +52,6 @@
         };
     };
 
-    / {
     macros {
         emdash: em_dash {
             compatible = "zmk,behavior-macro";

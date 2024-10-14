@@ -57,14 +57,14 @@
         zero {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
+        //│  '       │  ,       │  .       │  P       │  Y       │   │  F       │  G       │  C       │  R       │  L       │
+            &kp SQT   &kp COMMA  &kp DOT    &kp P      &kp Y          &kp F      &kp G      &kp C      &kp R      &kp L
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ; :      │
-           &kp A      &hm 1 S    &hm 2 D    &hm 3 F    &kp G          &kp H      &hm 6 J    &hm 5 K      &hm 4 L  &kp SEMI
+        //│  A       │  O       │  E       │  U       │  I       │   │  D       │  T       │  T       │  N       │  S       │
+           &kp A      &hm 1 O    &hm 2 E    &hm 3 U    &kp I          &kp D      &hm 6 T    &hm 5 T      &hm 4 N  &kp S
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ' "      │
-            &kp SLASH &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SQT
+        //│  Z       │  Q       │  J       │  K       │  X       │   │  B       │  M       │  W       │  V       │  -       │
+            &kp Z     &kp Q      &kp J      &kp K      &kp X          &kp B      &kp M      &kp W      &kp V      &kp MINUS
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                      &mt LALT BSPC &sk LSHIFT  &kp LGUI   &mt LCTRL SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -109,7 +109,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp CARET &kp KP_COMMA &kp KP_DOT &none      &none         &kp Z      &kp N1     &kp N2     &kp N3     &kp KP_SLASH
+           &kp CARET &kp KP_COMMA &kp KP_DOT &none      &none         &kp SEMI   &kp N1     &kp N2     &kp N3     &kp KP_SLASH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp KP_MINUS &kp KP_PLUS &kp KP_MULTIPLY &none      &none  &kp RET    &kp N4     &kp N5     &kp N6     &kp N0

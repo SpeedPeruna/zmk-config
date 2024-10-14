@@ -59,13 +59,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
+            &kp BSLH  &kp COMMA  &kp DOT    &kp P      &kp Y          &kp F      &kp G      &kp C      &kp R      &kp L
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ; :      │
-           &kp A      &hm 2 S    &hm 3 D    &hm 4 F    &kp G          &kp H      &hm 7 J    &hm 6 K      &hm 5 L  &kp SEMI
+        //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │  S       │
+           &kp A      &hm 2 O    &hm 3 E    &hm 4 U    &kp I          &kp D      &hm 7 H    &hm 6 T      &hm 5 N &kp S
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ' "      │
-            &kp SLASH &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SQT
+        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │  W       │  V       │  Z       │
+            &kp SLASH &kp Q      &kp J      &kp K      &kp X          &kp B      &kp M      &kp W      &kp V      &kp Z
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                      &mt LALT BSPC &sk LSHIFT  &kp LGUI   &mt LCTRL SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -93,7 +93,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &none      &none      &none      &none          &none    &msc SCRL_UP   &mmv MOVE_UP  &msc SCRL_DOWN     &none
+           &none      &none      &none      &none      &none          &none &msc SCRL_UP &mmv MOVE_UP &msc SCRL_DOWN &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &mkp MB3   &none      &mkp MB2   &mkp MB1   &none &msc SCRL_LEFT &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_RIGHT
@@ -127,13 +127,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp CARET &kp KP_COMMA &kp KP_DOT &none      &none         &kp Z      &kp N1     &kp N2     &kp N3     &kp KP_SLASH
+           &kp LS(RBKT) &kp KP_COMMA &kp KP_DOT &none      &none      &kp LS(DOT) &kp N1     &kp N2     &kp N3     &kp LS(N7)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp KP_MINUS &kp KP_PLUS &kp KP_MULTIPLY &none      &none  &kp RET    &kp N4     &kp N5     &kp N6     &kp N0
+           &kp SLASH &kp MINUS &kp LS(BSLH) &none      &none          &kp RET    &kp N4     &kp N5     &kp N6     &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &kp LPAR   &kp RPAR   &none      &none          &kp UNDER  &kp N7     &kp N8     &kp N9     &kp KP_EQUAL
+           &none      &kp LS(N8)   &kp LS(N9)   &none      &none        &kp LS(SLASH)  &kp N7     &kp N8     &kp N9   &kp LS(N0)
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -160,14 +160,14 @@
         sympairs {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp MINUS  &kp EQUAL  &kp EXCL   &kp LT     &kp GT         &none      &none      &none      &none      &none
+        //│    -     │    =     │    !     │    <     │     >    │   │          │          │          │          │          │
+           &kp SLASH  &kp LS(0)  &kp LS(1)   &kp LT     &kp GT         &none      &none      &none      &none      &none
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│    (     │    )     │    ?     │    -     │    +     │   │          │          │          │          │          │
+        &kp LS(N8) &kp LS(N9) &kp LS(MINUS) &kp SLASH &kp MINUS     &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LPAR   &kp RPAR   &kp QMARK  &kp KP_MINUS &kp KP_PLUS  &none      &none      &none      &none      &none
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LBRC &kp RBRC &kp KP_EQUAL &kp KP_SLASH &kp KP_MULTIPLY &none      &none      &none      &none      &none
+           &kp RA(N8) &kp RA(N9) &kp LS(SLASH) &kp LS(N7) &kp LS(BSLH) &none      &none      &none      &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

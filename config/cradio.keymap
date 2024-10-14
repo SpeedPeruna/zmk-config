@@ -60,11 +60,11 @@
         //│  '       │  ,       │  .       │  P       │  Y       │   │  F       │  G       │  C       │  R       │  L       │
             &kp SQT   &kp COMMA  &kp DOT    &kp P      &kp Y          &kp F      &kp G      &kp C      &kp R      &kp L
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  O       │  E       │  U       │  I       │   │  D       │  T       │  T       │  N       │  S       │
-           &kp A      &hm 2 O    &hm 3 E    &hm 4 U    &kp I          &kp D      &hm 7 T    &hm 6 T      &hm 5 N  &kp S
+        //│  A       │  O       │  E       │  U       │  I       │   │  D       │  H       │  T       │  N       │  S       │
+           &kp A      &hm 2 O    &hm 3 E    &hm 4 U    &kp I          &kp D      &hm 7 H    &hm 6 T      &hm 5 N  &kp S
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  Q       │  J       │  K       │  X       │   │  B       │  M       │  W       │  V       │  -       │
-            &kp Z     &kp Q      &kp J      &kp K      &kp X          &kp B      &kp M      &kp W      &kp V      &kp MINUS
+            &kp Z     &kp Q      &kp J      &kp K      &kp X          &kp B      &kp M      &kp W      &kp V      &kp SLASH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                      &mt LALT BSPC &sk LSHIFT  &kp LGUI   &mt LCTRL SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

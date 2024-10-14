@@ -52,6 +52,22 @@
         };
     };
 
+    / {
+    macros {
+        emdash: em_dash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp U &kp N2 &kp N0 &kp N1 &kp N4>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp LCTRL>
+                ;
+        };
+    };
+};
+
     keymap {
         compatible = "zmk,keymap";
         
@@ -178,13 +194,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp HASH   &kp DQT    &none      &kp PIPE   &none          &none      &none      &none      &none      &none
+           &kp HASH   &kp LS(N2) &emdash    &none      &none          &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp PRCNT  &kp AT     &kp COLON  &kp TILDE2 &kp CARET      &none      &none      &none      &none      &none
+           &kp PRCNT  &kp RA(N2) &kp LS(DOT)  &kp RA(RBKT) &kp LS(RBKT) &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp DLLR   &kp AMPS   &kp Z      &kp BSLH   &none          &none      &none      &none      &none      &none
+           &kp RA(N4)  &kp LS(N6) &kp LS(COMMA) &kp RA(MINUS)   &none &none      &none      &none      &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

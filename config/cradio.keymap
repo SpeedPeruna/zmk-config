@@ -52,19 +52,6 @@
         };
     };
 
-    macros {
-        emdash: em_dash {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LCTRL>
-                , <&macro_press &kp LSHFT>
-                , <&macro_tap &kp U &kp N2 &kp N0 &kp N1 &kp N4>
-                , <&macro_release &kp LSHFT>
-                , <&macro_release &kp LCTRL>
-                ;
-        };        
-
     keymap {
         compatible = "zmk,keymap";
         

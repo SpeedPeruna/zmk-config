@@ -164,7 +164,7 @@
            &kp SLASH  &kp LS(0)  &kp LS(1)   &kp LT     &kp GT         &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    (     │    )     │    ?     │    -     │    +     │   │          │          │          │          │          │
-        &kp LS(N8) &kp LS(N9) &kp LS(MINUS) &kp SLASH &kp MINUS     &none      &none      &none      &none      &none
+        &kp LS(N8) &kp LS(N9) &kp LS(MINUS) &kp SLASH &kp MINUS     &none      &to 0      &none      &to 1      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp RA(N8) &kp RA(N9) &kp LS(SLASH) &kp LS(N7) &kp LS(BSLH) &none      &none      &none      &none      &none

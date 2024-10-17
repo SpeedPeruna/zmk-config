@@ -50,6 +50,16 @@
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
         };
+         &sk {
+     release-after-ms = <2000>;
++    quick-release;
+ };
+ 
+ / {
+     keymap {
+         ...
+     };
+ };
     };
 
     keymap {

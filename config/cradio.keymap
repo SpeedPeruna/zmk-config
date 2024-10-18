@@ -123,7 +123,7 @@
            &kp ESC    &none      &none      &none      &none        &kp K_VOL_UP &kp PG_UP  &kp UP     &kp PG_DN  &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp BSPC    &kp TAB   &none      &kp RET    &none        &kp K_VOL_DN &kp LEFT   &kp DOWN   &kp RIGHT     &none
+           &kp BSPC    &kp TAB   &none      &kp RET    &none        &kp K_VOL_DN &kp LEFT   &kp DOWN   &kp RIGHT     &kp PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &none      &none      &none      &none      &none          &none      &none      &none      &none      &kp C_PWR

@@ -121,7 +121,7 @@
            &kp BSPC    &kp TAB   &none      &kp RET    &none        &kp K_VOL_DN &kp LEFT   &kp DOWN   &kp RIGHT     &kp PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &none      &none      &none      &none          &none      &none      &none      &none      &kp C_PWR
+           &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

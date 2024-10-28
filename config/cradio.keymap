@@ -21,6 +21,12 @@
     time-to-max-speed-ms = <0>;             /* <--- How long time until max speed is reached (default: 500) */
 };
 
+ &sk {
+    release-after-ms = <2000>;
+    quick-release;
+};
+
+
 / {
     behaviors {
         ht: hold_tap {
@@ -51,11 +57,6 @@
             bindings = <&mo>, <&kp>;
         };
  };
-
- &sk {
-    release-after-ms = <2000>;
-    quick-release;
-};
 
     keymap {
         compatible = "zmk,keymap";

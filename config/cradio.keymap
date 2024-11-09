@@ -235,7 +235,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LS(LC(X)) &LA(LS(C)) &none   &LA(LS(V)) &none          &none      &none      &none      &none      &none
+           &kp LS(LC(X)) &kp LA(LS(C)) &none &kp LA(LS(V)) &none       &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &none      &none      &none      &none      &none          &none      &none      &none      &none      &none

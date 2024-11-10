@@ -58,6 +58,18 @@
         };
  };
 
+/ {
+    macros {
+        agi: animecards_glossary_insertion {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp Z &kp M &kp K>
+                ;
+        };
+    };
+};
+
     keymap {
         compatible = "zmk,keymap";
         
@@ -238,7 +250,7 @@
            &kp LS(LC(X)) &kp LA(LS(C)) &none &kp LA(LS(V)) &kp LG(L)       &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LC(RET) &kp LC(LEFT) &none   &kp LC(RIGHT) &none       &none      &none      &none      &none      &none
+           &kp LC(RET) &kp LC(LEFT) &none   &kp LC(RIGHT) &kp NUBS       &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &none      &none      &none      &none      &none          &none      &none      &none      &none      &none

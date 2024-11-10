@@ -181,7 +181,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│    -     │    =     │    !     │    <     │     >    │   │          │          │          │          │          │
-           &kp RA(N7)  &kp RA(N0)  &kp LS(N1)   &kp LT     &kp GT         &none      &none      &none      &none      &none
+           &kp RA(N7)  &kp RA(N0)  &kp LS(N1) &kp NUBS &kp LS(NUBS)   &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    (     │    )     │    ?     │    -     │    +     │   │          │          │          │          │          │
         &kp LS(N8) &kp LS(N9) &kp LS(MINUS) &kp SLASH &kp MINUS     &none      &to 0      &none      &to 1      &none

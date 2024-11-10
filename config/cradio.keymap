@@ -28,6 +28,18 @@
 
 
 / {
+    macros {
+        agi: animecards_glossary_insertion {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp Z &kp M &kp K>
+                ;
+        };
+    };
+};
+
+/ {
     behaviors {
         ht: hold_tap {
             compatible = "zmk,behavior-hold-tap";
@@ -58,17 +70,7 @@
         };
  };
 
-/ {
-    macros {
-        agi: animecards_glossary_insertion {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp Z &kp M &kp K>
-                ;
-        };
-    };
-};
+
 
     keymap {
         compatible = "zmk,keymap";

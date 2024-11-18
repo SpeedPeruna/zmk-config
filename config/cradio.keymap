@@ -252,7 +252,7 @@
            &kp LS(LC(X)) &kp LA(LS(C)) &none &kp LA(LS(V)) &kp LG(L)       &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LC(RET) &kp LC(LEFT) &none   &kp LC(RIGHT) &acdi       &none      &none      &none      &none      &none
+           &kp LC(RET) &kp BSPC  &none      &kp SPACE &acdi       &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &none      &none      &none      &none      &none          &none      &none      &none      &none      &none

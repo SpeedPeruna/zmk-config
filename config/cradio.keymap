@@ -79,7 +79,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &mt LCTRL &mt LSHIFT BSLH &kp COMMA &hm 10 DOT &kp P  &kp Y &kp F    &kp G      &kp C      &kp R      &kp L
+            &mt LCTRL BSLH &mt LSHIFT COMMA &hm 10 DOT &kp P &kp Y    &kp F      &kp G      &kp C      &kp R      &kp L
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │  S       │
            &hm 9 A    &hm 2 O    &hm 3 E    &hm 4 U    &kp I          &kp D      &hm 7 H    &hm 6 T      &hm 5 N &kp S

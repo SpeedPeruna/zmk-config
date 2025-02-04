@@ -255,7 +255,7 @@
            &kp LC(RET) &kp BSPC  &none      &kp SPACE &acdi       &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LS(LC(S))      &none      &none      &none      &none          &none      &none      &none      &none      &none
+           &kp LS(LC(S))      &none      &kp LS(LC(p))      &none      &none          &none      &none      &none      &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &kp SPACE  &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

@@ -74,6 +74,7 @@
             tapping-term-ms = <300>;
             quick-tap-ms = <0>;
             flavor = "balanced";
+            hold-while-undecided;
             bindings = <&mo>, <&kp>;
         };
  };

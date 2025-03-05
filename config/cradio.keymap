@@ -72,7 +72,6 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <300>;
-            quick-tap-ms = <0>;
             flavor = "balanced";
             hold-while-undecided;
             bindings = <&mo>, <&kp>;
@@ -88,7 +87,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &hm2 LCTRL BSLH &hm2 LSHIFT COMMA &hm 10 DOT &kp P &kp Y    &kp F      &kp G      &kp C      &kp R      &kp L
+            &mt LCTRL BSLH &mt LSHIFT COMMA &hm 10 DOT &kp P &kp Y    &kp F      &kp G      &kp C      &kp R      &kp L
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │  S       │
            &hm 9 A    &hm 2 O    &hm 3 E    &hm 4 U    &kp I          &kp D      &hm 7 H    &hm 6 T      &hm 5 N &kp S
@@ -105,7 +104,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &mt LCTRL Q &hm LSHIFT W &hm 10 E &kp R    &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
+            &mt LCTRL Q &mt LSHIFT W &hm 10 E &kp R    &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ; :      │
            &hm 9 A      &hm 2 S    &hm 3 D    &hm 4 F    &kp G          &kp H      &hm 7 J    &hm 6 K      &hm 5 L  &kp SEMI

@@ -37,11 +37,11 @@
                 ;
         };
 
-        JPDB: JPDB_component_styling_macro {
+        jpdb: JPDB_component_styling_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp LC(LS(V)) &kp PG_UP &kp DOWN &kp BSPC &kp SPACE &kp DOWN &kp LEFT &kp DOWN &kp BSPC &kp SPACE>
+                = <&macro_tap &kp PG_UP &kp DOWN &kp BSPC &kp SPACE>
                 ;
         };
 
@@ -250,7 +250,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &kp LC(Z)  &kp LC(X)   &kp LC(Y) &JPDB          &none      &none      &none      &none      &none
+           &none      &kp LC(Z)  &kp LC(X)   &kp LC(Y) &jpdb          &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &none      &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp LC(S)      &none      &none      &none      &none      &none
@@ -267,10 +267,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LS(LC(X)) &kp LA(LS(C)) &none &kp LA(LS(V)) &kp LG(L)       &none      &none      &none      &none      &none
+           &kp LS(LC(X)) &kp LA(LS(C)) &none &kp LA(LS(V)) &kp LG(L)  &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LC(RET) &kp BSPC  &none      &kp SPACE &acdi       &none      &none      &none      &none      &none
+           &kp LC(RET) &kp BSPC  &none      &kp SPACE  &acdi          &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp LS(LC(S)) &none   &none      &kp LS(LC(P)) &none       &none      &none      &none      &none      &none

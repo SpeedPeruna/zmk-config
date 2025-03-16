@@ -37,11 +37,11 @@
                 ;
         };
 
-        jpdb: JPDB_component_styling_macro {
+        JPDB: JPDB_component_styling_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp PG_UP &kp DOWN &kp BSPC &kp SPACE>
+                = <&macro_tap &kp LC(LS(V)) &kp PG_UP &kp DOWN &kp BSPC &kp SPACE &kp DOWN &kp LEFT &kp DOWN &kp BSPC &kp SPACE>
                 ;
         };
 
@@ -250,7 +250,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &kp LC(Z)  &kp LC(X)   &kp LC(Y) &jpdb          &none      &none      &none      &none      &none
+           &none      &kp LC(Z)  &kp LC(X)   &kp JPDB  &kp LC(E)      &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &none      &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp LC(S)      &none      &none      &none      &none      &none

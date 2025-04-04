@@ -102,6 +102,16 @@
             hold-while-undecided;
             bindings = <&kp>, <&kp>;
         };
+
+        hm3: homerow_mods3 {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <0>;
+            require-prior-idle-ms = <150>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
  };
 
 
@@ -167,7 +177,7 @@
            &kp ESC    &none      &none      &none      &none        &kp K_VOL_UP &kp PG_UP  &kp UP     &kp PG_DN  &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp BSPC    &kp TAB   &none      &kp RET    &none        &kp K_VOL_DN &kp LEFT   &kp DOWN   &kp RIGHT     &kp PSCRN
+           &kp BSPC    &kp TAB   &none      &kp RET    &none        &kp K_VOL_DN &kp LEFT   &kp DOWN   &kp RIGHT  &kp PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &none      &none      &none      &none      &none          &none      &kp HOME   &none      &kp END    &none
@@ -181,13 +191,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LS(RBKT) &kp COMMA &kp DOT &none      &none      &kp LS(DOT) &kp N1     &kp N2     &kp N3     &kp LS(N7)
+           &kp LS(RBKT) &kp COMMA &kp DOT   &none      &none          &kp LS(DOT) &kp N1     &kp N2     &kp N3     &kp LS(N7)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp SLASH &kp MINUS &kp LS(BSLH) &none      &none          &kp RET    &kp N4     &kp N5     &kp N6     &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &none      &kp LS(N8)   &kp LS(N9)   &none      &none        &kp LS(SLASH)  &kp N7     &kp N8     &kp N9   &kp LS(N0)
+           &none      &kp LS(N8)   &kp LS(N9)   &none      &none      &kp LS(SLASH) &kp N7  &kp N8     &kp N9   &kp LS(N0)
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -238,7 +248,7 @@
            &kp PRCNT  &kp RA(N2) &kp LS(DOT)  &kp RA(RBKT) &kp LS(RBKT) &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp RA(N4)  &kp LS(N6) &kp LS(COMMA) &kp RA(MINUS)   &none &none      &none      &none      &none      &none
+           &kp RA(N4)  &kp LS(N6) &kp LS(COMMA) &kp RA(MINUS) &none &none      &none      &none      &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

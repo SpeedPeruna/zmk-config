@@ -131,7 +131,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │  W       │  V       │  Z       │
             &kp SLASH &kp Q      &kp J      &kp K      &kp X          &kp B      &kp M      &kp W      &kp V      &kp Z
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                     &mt LALT BSPC &sk LSHIFT  &kp LGUI   &mt LCTRL SPACE
+                                     &hm3 LALT BSPC &sk LSHIFT  &kp LGUI   &hm3 LCTRL SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };

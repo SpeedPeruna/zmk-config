@@ -126,7 +126,7 @@
             &hm2 LCTRL BSLH &hm2 LSHIFT COMMA &hm 10 DOT &kp P &kp Y    &kp F      &kp G      &kp C      &kp R      &kp L
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │  S       │
-           &hm 9 A    &hm 2 O    &hm 3 E    &hm 4 U    &kp I          &kp D      &hm 7 H    &hm 6 T      &hm 5 N &kp S
+           &hm 9 A    &hm 2 O    &hm 3 E    &hm 4 U    &hm2 LGUI I    &hm2 LGUI D &hm 7 H   &hm 6 T      &hm 5 N &kp S
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │  W       │  V       │  Z       │
             &kp SLASH &kp Q      &kp J      &kp K      &kp X          &kp B      &kp M      &kp W      &kp V      &kp Z

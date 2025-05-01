@@ -65,6 +65,18 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_compose {
+            layers = <0 1>
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp CAPS>;
+        };
+    };
+};
+
+/ {
     behaviors {
         ht: hold_tap {
             compatible = "zmk,behavior-hold-tap";
@@ -114,18 +126,6 @@
         };
  };
 
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_compose {
-            layers = <0 1>
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp CAPS>;
-        };
-    };
-};
 
 
     keymap {

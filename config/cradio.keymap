@@ -71,7 +71,7 @@
             layers = <0 1>;
             timeout-ms = <50>;
             key-positions = <0 1>;
-            bindings = <&kp LS>;
+            bindings = <&kp LSHFT>;
         };
 
                 compatible = "zmk,combos";
